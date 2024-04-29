@@ -1,0 +1,27 @@
+# Ignore Python build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyi
+*.pyproj
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore dataset files
+*.csv
+*.json
+*.xlsx
+*.xls
+
+# Ignore IPython checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter Notebook files
+*.ipynb
+
+.DS_Store

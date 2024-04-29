@@ -1,0 +1,25 @@
+[project]
+name = "multipose"
+authors = [{name = 'Yuvraj Thakur', email = 'yuvraj.thakur@hopin.to'}]
+version='0.0.1'
+description='COCO multi person keypoint detection'
+readme = "README.md"
+requires-python = ">=3.9, <3.12"
+keywords = ["sample", "setuptools", "development"]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.optional-dependencies]
+dev = [
+    "fiftyone"
+]
+
+
+[project.urls]
+github_url = "https://github.com/tyuvraj/deep-learning-experiments/tree/multi-pose-2d"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
